@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "obj": true,
+        "bin": true
+    },
+    "azureFunctions.deploySubpath": "quickstarts\\microsoft.customproviders\\custom-rp-with-function\\src",
+    "azureFunctions.projectLanguage": "C#Script",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "func: extensions install"
+}

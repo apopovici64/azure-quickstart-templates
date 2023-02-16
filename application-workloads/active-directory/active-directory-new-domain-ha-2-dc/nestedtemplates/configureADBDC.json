@@ -39,13 +39,13 @@
           "modulesURL": "[parameters('adBDCConfigurationModulesURL')]",
           "wmfVersion": "4.0",
           "configurationFunction": "[parameters('adBDCConfigurationFunction')]",
-          "properties": {
+          //"properties": {
             "domainName": "[parameters('domainName')]",
             "adminCreds": {
               "userName": "[parameters('adminUsername')]",
               "password": "privateSettingsRef:adminPassword"
             }
-          }
+          //}
         },
         "protectedSettings": {
           "items": {
